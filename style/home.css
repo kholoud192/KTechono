@@ -1,0 +1,200 @@
+body{
+    font-family: sans-serif;
+}
+.dark-mode{
+    background-color: #000;
+    color: white;
+}
+nav{
+    background-color:  rgb(142, 174, 201);
+    padding-bottom: 1%;
+    margin: -1%;
+    margin-right: -.59%;
+}
+.links{
+    margin-left: 50%;
+    margin-top: -2%;
+}
+.links span{
+    margin-right: 5%;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding: 0.5%;
+    transition: 0.7s;
+}
+.active{
+    border-bottom: 2px white solid;
+}
+.links a:hover{
+    box-shadow: 3px 2px 2px 2px white;
+    border-radius: 5px;   
+}
+.fa-moon-o:hover , .fa-language:hover{
+    border-bottom: 1px white solid;
+}
+.logo{
+    width: 300px;
+    margin-right: 40%;
+    height: 50px;
+}
+.logoimg{
+    margin-right: 10%;
+    margin-top: -30px;
+    width: 200px;
+    height: 150px;
+}
+.grid-container{
+    display: grid;
+}
+.frist{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.fristimg{
+    width: 100px;
+    margin-left: -18%;
+    
+}
+.fristimg img{
+    width: 90px;
+    position: absolute;
+    margin-top: -1%;
+}
+.introdiv1 {
+    font-family: sans-serif;
+    font-size: larger;
+}
+.introdiv{
+    width: 200px;
+    font-size: 300%;
+    margin-top:5% ;
+    border-top: 3px  rgb(142, 174, 201) solid;
+    width: 30px;
+    margin-left: 20%;
+}
+.introdiv span{
+    color:  rgb(142, 174, 201);
+    font-size: 200%;
+}
+.frist button{
+    border: 1px rgb(142, 174, 201) solid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: x-large;
+}
+.b1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ffffff;
+    color: #000;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.b1:hover{
+    box-shadow: 2px 2px 2px 2px rgb(142, 174, 201);
+}
+.b2:hover{
+    box-shadow: 2px 2px 2px 2px rgb(142, 174, 201);
+}
+.b2{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgb(142, 174, 201);
+    color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+}
+.intro{
+    margin-top: 1%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.imgs{
+    margin-left: 60%;
+}
+.image2{
+    width: 400px;
+    height: 255px;
+    border-radius: 15px;
+}
+.image1{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    border-radius: 15px;
+    left:70%;
+}
+section{
+    position: absolute;
+    width: 700px;
+    text-align: center;
+}
+.sec{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.contentprag{
+    width: 40%;
+    margin: 5%;
+    margin-left: 60%;
+    font-size: x-large;
+    
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.contentimg {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.contentimg img{
+    width: 100%;
+    height: 500px;
+}
+.prag_intro{
+    border-top: 2px white solid;
+    width: 15px;
+    text-align: left;
+}
+h2 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+}
+
+.contentprag button{
+    border-radius: 10px;
+    border: 1px  rgb(142, 174, 201) solid;
+    background-color: rgb(142, 174, 201);
+    color: #ffffff;
+    padding: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 3%;
+    font-size: larger;
+}
+.contentprag button:hover{
+    box-shadow: 2px 2px 2px 2px rgb(142, 174, 201);
+}
+footer{
+    background-color:  rgb(142, 174, 201);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    margin: -1%;
+    margin-top: 20%;
+    margin-right:-0.6% ;
+}
